@@ -23,8 +23,8 @@ alloy-primitives = { version = "0.7", default-features = false, features = [
     "std",
     "tiny-keccak",
 ] }
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "ratan/feature-gate-secp256k1", default-features = false }
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35", features = [
+reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "chris/new-ecrecover", default-features = false }
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover", features = [
     "std",
 ], default-features = false }
 anyhow = "1.0.79"
@@ -40,5 +40,5 @@ async-trait = "0.1.77"
 reqwest = "0.12.4"
 
 [patch.crates-io]
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35" }
-revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35" }
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }
+revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }

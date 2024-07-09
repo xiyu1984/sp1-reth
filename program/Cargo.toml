@@ -9,14 +9,16 @@ alloy-rlp = { version = "0.3", default-features = false }
 sp1-zkvm = { git = "https://github.com/succinctlabs/sp1.git" }
 sp1-reth-primitives = { path = "../primitives" }
 
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "ratan/feature-gate-secp256k1", default-features = false}
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35", features = [
+reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "chris/new-ecrecover", default-features = false}
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover", features = [
     "serde",
 ], default-features = false }
-revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35", default-features = false }
+revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover", default-features = false }
+anyhow = "^1.0.81"
+serde = "^1.0.204"
 
 [patch.crates-io]
 tiny-keccak = { git = "https://github.com/sp1-patches/tiny-keccak", branch = "patch-v2.0.2" }
 sha2-v0-10-8 = { git = "https://github.com/sp1-patches/RustCrypto-hashes", package = "sha2", branch = "v0.10.8" }
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35" }
-revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "ratan/secp256k1-on-v35" }
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }
+revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }
