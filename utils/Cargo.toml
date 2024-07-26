@@ -8,8 +8,8 @@ edition = "2021"
 [dependencies]
 clap = { version = "4.4.15", features = ["derive", "env"] }
 bincode = "1.3.3"
-sp1-prover = { git = "https://github.com/succinctlabs/sp1.git" }
-sp1-sdk = { git = "https://github.com/succinctlabs/sp1.git" }
+sp1-prover = { git = "https://github.com/succinctlabs/sp1", branch = "dev" }
+sp1-sdk = { git = "https://github.com/succinctlabs/sp1", branch = "dev" }
 sp1-reth-primitives = { path = "../primitives" }
 
 alloy-rlp = { version = "0.3", default-features = false }
