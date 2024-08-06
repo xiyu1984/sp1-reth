@@ -5,6 +5,9 @@
 [tg-badge]: https://img.shields.io/endpoint?color=neon&logo=telegram&label=chat&url=https://tg.sumanjay.workers.dev/succinct_sp1
 [tg-url]: https://t.me/succinct_sp1
 
+> [!WARNING]
+> This repository is archived and no longer maintained.
+
 ![](./assets/sp1-reth.png)
 
 SP1 Reth is a 100% open-source POC that showcases how any rollup can use SP1 to build a performant (type-1, bytecode compatible) zkEVM with less than 2000 lines of maintainable Rust code. SP1 Reth achieves incredible performance (around $0.01-0.02 proving cost for an average Ethereum transaction) by leveraging SP1’s open-source, customizable precompile system, with orders of magnitude improvements to come. SP1 Reth points to a future where all rollups can become ZK rollups, utilizing the magic of ZKPs with maintainable software written in Rust.

@@ -23,8 +23,8 @@ alloy-primitives = { version = "0.7", default-features = false, features = [
     "std",
     "tiny-keccak",
 ] }
-reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "chris/new-ecrecover", default-features = false }
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover", features = [
+reth-primitives = { git = "https://github.com/sp1-patches/reth-new", branch = "john/update-for-v1", default-features = false }
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "john/update-for-v1", features = [
     "std",
 ], default-features = false }
 anyhow = "1.0.79"
@@ -40,5 +40,5 @@ async-trait = "0.1.77"
 reqwest = "0.12.4"
 
 [patch.crates-io]
-revm = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }
-revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "chris/new-ecrecover" }
+revm = { git = "https://github.com/sp1-patches/revm-new", branch = "john/update-for-v1" }
+revm-primitives = { git = "https://github.com/sp1-patches/revm-new", branch = "john/update-for-v1" }
