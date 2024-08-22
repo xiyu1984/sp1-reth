@@ -49,7 +49,7 @@ dependencies = [
 [[package]]
 name = "alloy-consensus"
 version = "0.1.0"
-source = "git+https://github.com/alloy-rs/alloy#bbef8de3fd203bf6feb26dc619f42b2bb2ecd4e3"
+source = "git+https://github.com/alloy-rs/alloy#55a278c9db4e7e9b18b2bc2a290bd3de675d09f7"
 dependencies = [
  "alloy-eips 0.1.0 (git+https://github.com/alloy-rs/alloy)",
  "alloy-primitives",
@@ -76,7 +76,7 @@ dependencies = [
 [[package]]
 name = "alloy-eips"
 version = "0.1.0"
-source = "git+https://github.com/alloy-rs/alloy#bbef8de3fd203bf6feb26dc619f42b2bb2ecd4e3"
+source = "git+https://github.com/alloy-rs/alloy#55a278c9db4e7e9b18b2bc2a290bd3de675d09f7"
 dependencies = [
  "alloy-primitives",
  "alloy-rlp",
@@ -99,7 +99,7 @@ dependencies = [
 [[package]]
 name = "alloy-genesis"
 version = "0.1.0"
-source = "git+https://github.com/alloy-rs/alloy#bbef8de3fd203bf6feb26dc619f42b2bb2ecd4e3"
+source = "git+https://github.com/alloy-rs/alloy#55a278c9db4e7e9b18b2bc2a290bd3de675d09f7"
 dependencies = [
  "alloy-primitives",
  "alloy-serde 0.1.0 (git+https://github.com/alloy-rs/alloy)",
@@ -174,7 +174,7 @@ dependencies = [
 [[package]]
 name = "alloy-rpc-types"
 version = "0.1.0"
-source = "git+https://github.com/alloy-rs/alloy#bbef8de3fd203bf6feb26dc619f42b2bb2ecd4e3"
+source = "git+https://github.com/alloy-rs/alloy#55a278c9db4e7e9b18b2bc2a290bd3de675d09f7"
 dependencies = [
  "alloy-consensus 0.1.0 (git+https://github.com/alloy-rs/alloy)",
  "alloy-eips 0.1.0 (git+https://github.com/alloy-rs/alloy)",
@@ -240,7 +240,7 @@ dependencies = [
 [[package]]
 name = "alloy-serde"
 version = "0.1.0"
-source = "git+https://github.com/alloy-rs/alloy#bbef8de3fd203bf6feb26dc619f42b2bb2ecd4e3"
+source = "git+https://github.com/alloy-rs/alloy#55a278c9db4e7e9b18b2bc2a290bd3de675d09f7"
 dependencies = [
  "alloy-primitives",
  "serde",
@@ -1688,7 +1688,7 @@ checksum = "adad44e29e4c806119491a7f06f03de4d1af22c3a680dd47f1e6e179439d1f56"
 [[package]]
 name = "reth-codecs"
 version = "0.2.0-beta.6"
-source = "git+https://github.com/sp1-patches/reth-new?branch=chris/new-ecrecover#dc0d1f2a8e2f96ffd30adc8946433f63309c2548"
+source = "git+https://github.com/sp1-patches/reth-new?branch=john/update-for-v1#66727b60652bce3f19cba43d71b0669e960cfb28"
 dependencies = [
  "alloy-eips 0.1.0 (git+https://github.com/alloy-rs/alloy?rev=39b8695)",
  "alloy-primitives",
@@ -1699,7 +1699,7 @@ dependencies = [
 [[package]]
 name = "reth-codecs-derive"
 version = "0.2.0-beta.6"
-source = "git+https://github.com/sp1-patches/reth-new?branch=chris/new-ecrecover#dc0d1f2a8e2f96ffd30adc8946433f63309c2548"
+source = "git+https://github.com/sp1-patches/reth-new?branch=john/update-for-v1#66727b60652bce3f19cba43d71b0669e960cfb28"
 dependencies = [
  "convert_case 0.6.0",
  "proc-macro2",
@@ -1710,7 +1710,7 @@ dependencies = [
 [[package]]
 name = "reth-ethereum-forks"
 version = "0.2.0-beta.6"
-source = "git+https://github.com/sp1-patches/reth-new?branch=chris/new-ecrecover#dc0d1f2a8e2f96ffd30adc8946433f63309c2548"
+source = "git+https://github.com/sp1-patches/reth-new?branch=john/update-for-v1#66727b60652bce3f19cba43d71b0669e960cfb28"
 dependencies = [
  "alloy-chains",
  "alloy-primitives",
@@ -1723,7 +1723,7 @@ dependencies = [
 [[package]]
 name = "reth-primitives"
 version = "0.2.0-beta.6"
-source = "git+https://github.com/sp1-patches/reth-new?branch=chris/new-ecrecover#dc0d1f2a8e2f96ffd30adc8946433f63309c2548"
+source = "git+https://github.com/sp1-patches/reth-new?branch=john/update-for-v1#66727b60652bce3f19cba43d71b0669e960cfb28"
 dependencies = [
  "alloy-chains",
  "alloy-eips 0.1.0 (git+https://github.com/alloy-rs/alloy?rev=39b8695)",
@@ -1750,7 +1750,7 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_with",
- "sp1-lib 0.1.0",
+ "sp1-lib 1.0.1",
  "strum",
  "thiserror",
 ]
@@ -1758,7 +1758,7 @@ dependencies = [
 [[package]]
 name = "reth-rpc-types"
 version = "0.2.0-beta.6"
-source = "git+https://github.com/sp1-patches/reth-new?branch=chris/new-ecrecover#dc0d1f2a8e2f96ffd30adc8946433f63309c2548"
+source = "git+https://github.com/sp1-patches/reth-new?branch=john/update-for-v1#66727b60652bce3f19cba43d71b0669e960cfb28"
 dependencies = [
  "alloy-genesis 0.1.0 (git+https://github.com/alloy-rs/alloy?rev=39b8695)",
  "alloy-primitives",
@@ -1779,7 +1779,7 @@ dependencies = [
 [[package]]
 name = "revm"
 version = "8.0.0"
-source = "git+https://github.com/sp1-patches/revm-new?branch=chris/new-ecrecover#db5e16c38f6ff868a0b27ca0145b2924f9126dfb"
+source = "git+https://github.com/sp1-patches/revm-new?branch=john/update-for-v1#eb53e9f613f4c309851144260696791918b31383"
 dependencies = [
  "auto_impl",
  "cfg-if",
@@ -1793,7 +1793,7 @@ dependencies = [
 [[package]]
 name = "revm-interpreter"
 version = "4.0.0"
-source = "git+https://github.com/sp1-patches/revm-new?branch=chris/new-ecrecover#db5e16c38f6ff868a0b27ca0145b2924f9126dfb"
+source = "git+https://github.com/sp1-patches/revm-new?branch=john/update-for-v1#eb53e9f613f4c309851144260696791918b31383"
 dependencies = [
  "revm-primitives",
  "serde",
@@ -1802,7 +1802,7 @@ dependencies = [
 [[package]]
 name = "revm-precompile"
 version = "6.0.0"
-source = "git+https://github.com/sp1-patches/revm-new?branch=chris/new-ecrecover#db5e16c38f6ff868a0b27ca0145b2924f9126dfb"
+source = "git+https://github.com/sp1-patches/revm-new?branch=john/update-for-v1#eb53e9f613f4c309851144260696791918b31383"
 dependencies = [
  "anyhow",
  "aurora-engine-modexp",
@@ -1812,14 +1812,14 @@ dependencies = [
  "revm-primitives",
  "ripemd",
  "sha2",
- "sp1-lib 0.1.0",
+ "sp1-lib 1.0.1",
  "substrate-bn",
 ]
 
 [[package]]
 name = "revm-primitives"
 version = "3.1.1"
-source = "git+https://github.com/sp1-patches/revm-new?branch=chris/new-ecrecover#db5e16c38f6ff868a0b27ca0145b2924f9126dfb"
+source = "git+https://github.com/sp1-patches/revm-new?branch=john/update-for-v1#eb53e9f613f4c309851144260696791918b31383"
 dependencies = [
  "alloy-primitives",
  "auto_impl",
@@ -2105,8 +2105,8 @@ dependencies = [
 
 [[package]]
 name = "sp1-lib"
-version = "0.1.0"
-source = "git+https://github.com/succinctlabs/sp1.git?branch=dev#ee93afa828fc42a87a328f7df26d98bb0b27feed"
+version = "1.0.1"
+source = "git+https://github.com/succinctlabs/sp1.git?rev=dd032eb23949828d244d1ad1f1569aa78155837c#dd032eb23949828d244d1ad1f1569aa78155837c"
 dependencies = [
  "anyhow",
  "bincode",
@@ -2117,9 +2117,8 @@ dependencies = [
 
 [[package]]
 name = "sp1-lib"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "01c4a9c8d029e57349b2b124595b2dc7a70d3dd8431d0e63348a2a271a894b8e"
+version = "1.1.0"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#fa2ceb455aece79640818e0fbe42d6d46efbe9ae"
 dependencies = [
  "anyhow",
  "bincode",
@@ -2162,9 +2161,8 @@ dependencies = [
 
 [[package]]
 name = "sp1-zkvm"
-version = "1.0.1"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0708c2369deb682e57bfe33bb5a405188d825511b31e22af5722e1ace79c1840"
+version = "1.1.0"
+source = "git+https://github.com/succinctlabs/sp1?branch=dev#fa2ceb455aece79640818e0fbe42d6d46efbe9ae"
 dependencies = [
  "bincode",
  "cfg-if",
@@ -2175,7 +2173,7 @@ dependencies = [
  "rand",
  "serde",
  "sha2",
- "sp1-lib 1.0.1",
+ "sp1-lib 1.1.0",
 ]
 
 [[package]]
@@ -2362,7 +2360,7 @@ dependencies = [
 [[package]]
 name = "tiny-keccak"
 version = "2.0.2"
-source = "git+https://github.com/sp1-patches/tiny-keccak?branch=patch-v2.0.2#aa70bacdfece9dc7ea4936f808887c43a09b3b0a"
+source = "git+https://github.com/sp1-patches/tiny-keccak?branch=patch-v2.0.2#bf0b28f63510a90c7b6c21ac6ff461c93ecd2331"
 dependencies = [
  "cfg-if",
  "crunchy",
