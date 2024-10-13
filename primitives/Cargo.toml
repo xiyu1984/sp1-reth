@@ -9,7 +9,7 @@ edition = "2021"
 alloy-rlp = { version = "0.3", default-features = false }
 alloy-rlp-derive = { version = "0.3", default-features = false }
 alloy-rpc-types = { git = "https://github.com/alloy-rs/alloy" }
-alloy-primitives = { version = "0.7", default-features = false, features = [
+alloy-primitives = { version = "=0.7", default-features = false, features = [
     "rlp",
     "serde",
     "std",
