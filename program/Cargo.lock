@@ -1021,9 +1021,9 @@ dependencies = [
 
 [[package]]
 name = "getrandom"
-version = "0.2.14"
+version = "0.2.15"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "94b22e06ecb0110981051723910cbf0b5f5e09a2062dd7663334ee79a9d1286c"
+checksum = "c4567c8db10ae91089c99af84c68c38da3ec2f087c3f82960bcdbf3656b6f4d7"
 dependencies = [
  "cfg-if",
  "libc",
@@ -1268,9 +1268,9 @@ dependencies = [
 
 [[package]]
 name = "libc"
-version = "0.2.153"
+version = "0.2.168"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
+checksum = "5aaeb2981e0606ca11d79718f8bb01164f1d6ed75080182d3abf017e6d244b6d"
 
 [[package]]
 name = "libm"
@@ -2117,12 +2117,9 @@ dependencies = [
 
 [[package]]
 name = "sp1-lib"
-version = "1.1.0"
-source = "git+https://github.com/succinctlabs/sp1?branch=dev#fa2ceb455aece79640818e0fbe42d6d46efbe9ae"
+version = "3.0.0"
 dependencies = [
- "anyhow",
  "bincode",
- "cfg-if",
  "serde",
 ]
 
@@ -2161,19 +2158,15 @@ dependencies = [
 
 [[package]]
 name = "sp1-zkvm"
-version = "1.1.0"
-source = "git+https://github.com/succinctlabs/sp1?branch=dev#fa2ceb455aece79640818e0fbe42d6d46efbe9ae"
+version = "3.0.0"
 dependencies = [
- "bincode",
  "cfg-if",
  "getrandom",
  "lazy_static",
  "libm",
- "once_cell",
  "rand",
- "serde",
  "sha2",
- "sp1-lib 1.1.0",
+ "sp1-lib 3.0.0",
 ]
 
 [[package]]

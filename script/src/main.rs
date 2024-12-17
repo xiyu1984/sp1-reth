@@ -1,8 +1,8 @@
 use clap::Parser;
-use sp1_prover::{SP1Prover, SP1Stdin};
+// use sp1_prover::{SP1Prover, SP1Stdin};
 use sp1_reth_primitives::SP1RethInput;
 use sp1_reth_utils::init::SP1RethInputInitializer;
-use sp1_sdk::utils;
+use sp1_sdk::{utils, ProverClient, SP1Stdin};
 use std::fs::File;
 
 /// The version message for the SP1 Reth program.
